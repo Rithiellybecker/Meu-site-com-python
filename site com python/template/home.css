@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(50, 235, 235);
+}
+
+/*centralizar o botão*/
+div#form_fundo{
+    background-color: rgb(50, 235, 235);
+    margin: 10% 25% 25% 25%;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 2px 5px 5px black;
+}
+
+div#form_frente{
+    /*background-color: aquamarine;*/
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+/*centralizar tudo*/
+label{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+input{
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input:focus{
+background-color: aquamarine;
+
+}
+
+button{
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #d3d3d3;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}

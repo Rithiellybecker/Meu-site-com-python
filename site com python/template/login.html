@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt=br">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="home.css"><!--organizar os arquivos na pasta static Ex: arquivos css que esta funcionando temporariamente na pasta template-->
 </head>
 
 <body>
-    <div id="form_fundo">
+    <div id="form_fundo" class="form_fundo">
         <h1>LOGIN</h1>
-        <div id="form_frente">
+        <div id="form_frente" class="form_frente">
             <form action="/login" id="login" method="post">
                 <label for="nome">NOME</label>
                 <input type="text" name="nome" id="nome" required placeholder="Digite seu nome"><br>
-                <label for="senha" id="senha">SENHA</label>
+                <label for="senha">SENHA</label>
                 <input type="password" name="senha" id="senha" required placeholder="Digite sua senha"><br>
-                <button type="submit" id="btn_login">
+                <button type="submit" id="btn_login" class="btn_login">
                     <span></span>
                     <span></span>
                     <span></span>
